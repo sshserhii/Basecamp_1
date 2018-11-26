@@ -16,3 +16,7 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+void Calculator::Show(int result){
+std::cout<<result<<std::endl;
+}
+
